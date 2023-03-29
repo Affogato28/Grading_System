@@ -1,0 +1,59 @@
+body{
+    background-image: url(bg.png); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    color: white;
+    }
+ .Input-text{
+    position: relative;
+    height: 50vh; /* Use viewport height instead of a percentage */
+    display: flex; /* Use flexbox to center the text */
+    align-items: flex-end;
+    color: white;
+    left: -14%;
+    }
+  .text{
+    position: relative;
+    bottom: 2%;
+  }
+  button{
+    padding: 10px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 10px; 
+    left: 20%;
+    position: relative;
+  }
+  button:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+
+.Remarks{
+  position: relative;
+  float: right;
+  margin-right: 250px;
+  margin-top: -400px;
+  color: red;
+  font-size: larger;
+}
+.Remarks1{
+  position: relative;
+  float: right;
+  margin-right: 250px;
+  margin-top: -340px;
+  color: black;
+  font-size: xx-large;
+}
+.Remarks2{
+  position: relative;
+  float: right;
+  margin-right: 200px;
+  margin-top: -250px;
+  color: black;
+  font-size: x-large;
+}
